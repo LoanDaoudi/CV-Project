@@ -6,7 +6,6 @@
 
 body{
     width: 1024px;
-    height: 1000px;
     border:  thick double salmon;
     
 }
@@ -48,7 +47,6 @@ header img{
     object-fit: cover;
     border-radius: 90px;
     margin-left: 10px;
-    margin-right: 10px;
     
 }
 
@@ -86,7 +84,6 @@ header img{
 
 main{
     width: 100%;
-    height: 100%;
     flex-direction: column;
     border-top:  thick double salmon;
     margin-top: 45px;
@@ -98,8 +95,8 @@ main{
 }
 
 #Work-Formation{
-    width: 60%;
-    height: 700px;
+    width: 50%;
+    height: 100%;
     margin: 0;
     margin-left: 15px;
     padding-top: 15px;
@@ -177,9 +174,8 @@ main{
 
 #Contact-Skills{
     margin: 0;
-    padding-left: 15px;
     position: absolute;
-    right: 60px;
+    right: 90px;
     top: 300px;
     
 }
@@ -214,7 +210,46 @@ main{
     display: flex;
 }
 
+#Skills{
+    margin-bottom: 30px;
+}
 
+#Skills h5{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#Skills p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#skill1{
+    width: 175px;
+    height: 7px;
+    border-radius: 25px;
+    background-color: salmon;
+    margin: 0;
+}
+
+#skill2{
+    width: 175px;
+    height: 7px;
+    border-radius: 25px;
+    background-color: salmon;
+    margin: 0;
+
+}
+
+#skill3{
+    width: 155px;
+    height: 7px;
+    border-radius: 25px;
+    background-color: salmon;
+    margin: 0;
+}
 
 
 #Language h5{
@@ -237,7 +272,6 @@ main{
     margin: 0;
     font-size: 12px;
     font-weight: 500;
-    margin-bottom: 8px;
 }
 
 .logo-contatc{
@@ -274,7 +308,6 @@ main{
     margin: 0;
     font-size: 15px;
     font-weight: 500;
-    padding-left: 15px;
 }
 
 .logo-language img{
@@ -288,75 +321,3 @@ main{
 .colonne{
     flex: 1;
 }
-
-#Skills{
-    margin-bottom: 30px;
-}
-
-#Skills h5{
-    margin: 0;
-    margin-bottom: 8px;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-#Skills p{
-    margin: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.competences img{
-
-    width: 100%;
-    height: 15px;
-}
-
-.illustration-pc{
-    position: fixed;
-}
-
-.illustration-pc img{
-    width: 250px;
-    height: 250px;
-   position: absolute;
-   bottom: 10px;
-   margin-left: 330px;
-}
-
-.cercle-deco{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    left: 480px;
-    
-}
-
-#cercle1{
-    font-size: 150px;
-    color: salmon;
-    position: absolute;
-    bottom: 155px;
-    right: -79px;
-}
-
-#cercle2{
-    font-size: 130px;
-    color: plum;
-    position: absolute;
-    bottom: 90px;
-    left: 10px;
-}
-
-#cercle3{
-    font-size: 110px;
-    color: aquamarine;
-    position: absolute;
-    bottom:40px;
-    left: -50px;
-}
-
-
-
